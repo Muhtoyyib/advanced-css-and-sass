@@ -61,7 +61,7 @@
                     <span class="primary-heading--sub"> is where life happens</span>
                 </h1>
 
-                <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+                <a href="#section-tours" class="btn btn--white btn--animated">Discover our tours</a>
             </div>
         </header> 
 
@@ -150,7 +150,7 @@
                 </div>
             </section>
 
-            <section class="section-tours">
+            <section class="section-tours" id="section-tours">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="secondary-heading">
                         Most popular tours
@@ -189,7 +189,7 @@
                                         <p class="card__price--value">$295</p>
                                     </div>
 
-                                    <a href="#" class="btn btn--white btn--animated">Book now</a>
+                                    <a href="#popup" class="btn btn--white btn--animated">Book now</a>
                                 </div>
                             </div>
                         </div>
@@ -226,7 +226,7 @@
                                         <p class="card__price--value">$497</p>
                                     </div>
 
-                                    <a href="#" class="btn btn--white btn--animated">Book now</a>
+                                    <a href="#popup" class="btn btn--white btn--animated">Book now</a>
                                 </div>
                             </div>
                         </div>
@@ -263,7 +263,7 @@
                                         <p class="card__price--value">$897</p>
                                     </div>
 
-                                    <a href="#" class="btn btn--white btn--animated">Book now</a>
+                                    <a href="#popup" class="btn btn--white btn--animated">Book now</a>
                                 </div>
                             </div>
                         </div>
@@ -421,9 +421,35 @@
             </div>
         </footer>
 
-        <div class="popup">
+        <div class="popup" id="popup">
             <div class="popup__content">
-                POPUP
+                <div class="popup__left">
+                    <img src="img/nat-8.jpg" alt="tour photo" class="popup__img">
+                    <img src="img/nat-9.jpg" alt="tour photo" class="popup__img">
+                </div>
+
+                <div class="popup__right">
+                    <a href="#section-tours" class="popup__close">&times;</a>
+                    <h2 class="secondary-heading u-margin-bottom-small">Start Booking now</h2>
+                    <h3 class="tertiary-heading u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
+
+                    <p class="popup__text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+
+                    <a href="#" class="btn btn--green">Book now</a>
+                </div>
             </div>
         </div>
     </body>
